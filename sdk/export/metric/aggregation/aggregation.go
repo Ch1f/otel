@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package aggregation // import "go.opentelemetry.io/otel/sdk/export/metric/aggregation"
+package aggregation // import "github.com/Ch1f/otel/sdk/export/metric/aggregation"
 
 import (
 	"fmt"
 	"time"
 
-	"go.opentelemetry.io/otel/api/metric"
+	"github.com/Ch1f/otel/api/metric"
 )
 
 // These interfaces describe the various ways to access state from an

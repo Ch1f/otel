@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/minmaxsumcount"
+	"github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/sdk/metric/aggregator/minmaxsumcount"
 )
 
 func TestStressInt64MinMaxSumCount(t *testing.T) {

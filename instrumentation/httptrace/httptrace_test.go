@@ -23,14 +23,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"go.opentelemetry.io/otel/api/correlation"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/standard"
-	"go.opentelemetry.io/otel/instrumentation/httptrace"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/correlation"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/propagation"
+	"github.com/Ch1f/otel/api/standard"
+	"github.com/Ch1f/otel/instrumentation/httptrace"
+	export "github.com/Ch1f/otel/sdk/export/trace"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 func TestRoundtrip(t *testing.T) {

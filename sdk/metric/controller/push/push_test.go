@@ -24,18 +24,18 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/api/metric"
-	exporterTest "go.opentelemetry.io/otel/exporters/metric/test"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	controllerTest "go.opentelemetry.io/otel/sdk/metric/controller/test"
-	"go.opentelemetry.io/otel/sdk/metric/processor/test"
-	processorTest "go.opentelemetry.io/otel/sdk/metric/processor/test"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/label"
+	"github.com/Ch1f/otel/api/metric"
+	exporterTest "github.com/Ch1f/otel/exporters/metric/test"
+	export "github.com/Ch1f/otel/sdk/export/metric"
+	"github.com/Ch1f/otel/sdk/export/metric/aggregation"
+	"github.com/Ch1f/otel/sdk/metric/controller/push"
+	controllerTest "github.com/Ch1f/otel/sdk/metric/controller/test"
+	"github.com/Ch1f/otel/sdk/metric/processor/test"
+	processorTest "github.com/Ch1f/otel/sdk/metric/processor/test"
+	"github.com/Ch1f/otel/sdk/resource"
 )
 
 var testResource = resource.New(kv.String("R", "V"))

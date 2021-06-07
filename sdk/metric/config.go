@@ -15,7 +15,7 @@
 package metric
 
 import (
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/Ch1f/otel/sdk/resource"
 )
 
 // Config contains configuration for an SDK.

@@ -20,10 +20,10 @@ import (
 	"log"
 	"time"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/example/grpc/api"
-	"go.opentelemetry.io/otel/example/grpc/config"
-	"go.opentelemetry.io/otel/instrumentation/grpctrace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/example/grpc/api"
+	"github.com/Ch1f/otel/example/grpc/config"
+	"github.com/Ch1f/otel/instrumentation/grpctrace"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

@@ -17,7 +17,7 @@ package othttp
 import (
 	"net/http"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 )
 
 // Attribute keys that can be added to a span.

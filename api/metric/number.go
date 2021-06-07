@@ -21,7 +21,7 @@ import (
 	"math"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/api/internal"
+	"github.com/Ch1f/otel/api/internal"
 )
 
 // NumberKind describes the data type of the Number.

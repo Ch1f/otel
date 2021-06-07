@@ -4,5 +4,5 @@ OpenTelemetry Prometheus exporter
 
 ## Installation
 ```
-go get -u go.opentelemetry.io/otel/exporters/metric/prometheus
+go get -u github.com/Ch1f/otel/exporters/metric/prometheus
 ```

@@ -19,7 +19,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 )
 
 func TestNeverSamperShouldSample(t *testing.T) {

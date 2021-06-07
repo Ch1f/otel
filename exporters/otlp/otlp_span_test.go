@@ -27,11 +27,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/kv"
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	tracesdk "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/Ch1f/otel/api/kv"
+	apitrace "github.com/Ch1f/otel/api/trace"
+	tracesdk "github.com/Ch1f/otel/sdk/export/trace"
+	"github.com/Ch1f/otel/sdk/instrumentation"
+	"github.com/Ch1f/otel/sdk/resource"
 )
 
 type traceServiceClientStub struct {

@@ -22,13 +22,13 @@ import (
 	"strings"
 	"sync"
 
-	"go.opentelemetry.io/otel/api/standard"
+	"github.com/Ch1f/otel/api/standard"
 
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 var (
@@ -69,7 +69,7 @@ func NewClientTrace(ctx context.Context) *httptrace.ClientTrace {
 		activeHooks: make(map[string]context.Context),
 	}
 
-	ct.tr = global.Tracer("go.opentelemetry.io/otel/instrumentation/httptrace")
+	ct.tr = global.Tracer("github.com/Ch1f/otel/instrumentation/httptrace")
 
 	return &httptrace.ClientTrace{
 		GetConn:              ct.getConn,

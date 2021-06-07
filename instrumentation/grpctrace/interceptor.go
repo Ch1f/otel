@@ -22,7 +22,7 @@ import (
 	"net"
 	"strings"
 
-	"go.opentelemetry.io/otel/api/standard"
+	"github.com/Ch1f/otel/api/standard"
 
 	"github.com/golang/protobuf/proto" //nolint:staticcheck
 
@@ -31,9 +31,9 @@ import (
 	"google.golang.org/grpc/peer"
 	"google.golang.org/grpc/status"
 
-	"go.opentelemetry.io/otel/api/correlation"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/correlation"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 type messageType kv.KeyValue

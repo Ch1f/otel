@@ -17,7 +17,7 @@ package metric
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 )
 
 // Float64UpDownCounter is a metric instrument that sums floating

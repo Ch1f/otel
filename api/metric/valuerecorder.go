@@ -17,7 +17,7 @@ package metric
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 )
 
 // Float64ValueRecorder is a metric that records float64 values.

@@ -26,18 +26,18 @@ Example uses
 
 #### 1 Download git repo
 ```
-GO111MODULE="" go get -d go.opentelemetry.io/otel
+GO111MODULE="" go get -d github.com/Ch1f/otel
 ```
 
 #### 2 Start Server
 ```
-cd $GOPATH/src/go.opentelemetry.io/otel/example/http/
+cd $GOPATH/src/github.com/Ch1f/otel/example/http/
 go run ./server/server.go
 ```
 
 #### 3 Start Client
 ```
-cd $GOPATH/src/go.opentelemetry.io/otel/example/http/
+cd $GOPATH/src/github.com/Ch1f/otel/example/http/
 go run ./client/client.go
 ```
 

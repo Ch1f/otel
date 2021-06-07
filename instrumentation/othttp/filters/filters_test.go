@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"testing"
 
-	"go.opentelemetry.io/otel/instrumentation/othttp"
+	"github.com/Ch1f/otel/instrumentation/othttp"
 )
 
 type scenario struct {

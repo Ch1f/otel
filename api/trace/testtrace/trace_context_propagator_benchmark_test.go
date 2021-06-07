@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"testing"
 
-	"go.opentelemetry.io/otel/api/trace"
-	mocktrace "go.opentelemetry.io/otel/internal/trace"
+	"github.com/Ch1f/otel/api/trace"
+	mocktrace "github.com/Ch1f/otel/internal/trace"
 )
 
 func BenchmarkInject(b *testing.B) {

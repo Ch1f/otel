@@ -21,13 +21,13 @@ import (
 	"google.golang.org/api/support/bundler"
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/kv/value"
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	gen "go.opentelemetry.io/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv/value"
+	apitrace "github.com/Ch1f/otel/api/trace"
+	gen "github.com/Ch1f/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
+	export "github.com/Ch1f/otel/sdk/export/trace"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 const defaultServiceName = "OpenTelemetry"

@@ -17,8 +17,8 @@ package parent
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 func GetSpanContextAndLinks(ctx context.Context, ignoreContext bool) (trace.SpanContext, bool, []trace.Link) {

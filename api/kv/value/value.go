@@ -22,7 +22,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"go.opentelemetry.io/otel/api/internal"
+	"github.com/Ch1f/otel/api/internal"
 )
 
 //go:generate stringer -type=Type

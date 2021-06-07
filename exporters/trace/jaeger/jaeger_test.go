@@ -27,14 +27,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	gen "go.opentelemetry.io/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
-	ottest "go.opentelemetry.io/otel/internal/testing"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	apitrace "github.com/Ch1f/otel/api/trace"
+	gen "github.com/Ch1f/otel/exporters/trace/jaeger/internal/gen-go/jaeger"
+	ottest "github.com/Ch1f/otel/internal/testing"
+	export "github.com/Ch1f/otel/sdk/export/trace"
+	"github.com/Ch1f/otel/sdk/resource"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 func TestNewExporterPipelineWithRegistration(t *testing.T) {

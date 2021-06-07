@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package sum // import "go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
+package sum // import "github.com/Ch1f/otel/sdk/metric/aggregator/sum"
 
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator"
+	"github.com/Ch1f/otel/api/metric"
+	export "github.com/Ch1f/otel/sdk/export/metric"
+	"github.com/Ch1f/otel/sdk/export/metric/aggregation"
+	"github.com/Ch1f/otel/sdk/metric/aggregator"
 )
 
 // Aggregator aggregates counter events.

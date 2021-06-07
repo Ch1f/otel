@@ -19,7 +19,7 @@ import (
 	"encoding/binary"
 	"math/rand"
 
-	"go.opentelemetry.io/otel/sdk/trace/internal"
+	"github.com/Ch1f/otel/sdk/trace/internal"
 )
 
 func defIDGenerator() internal.IDGenerator {

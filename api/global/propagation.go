@@ -15,8 +15,8 @@
 package global
 
 import (
-	"go.opentelemetry.io/otel/api/global/internal"
-	"go.opentelemetry.io/otel/api/propagation"
+	"github.com/Ch1f/otel/api/global/internal"
+	"github.com/Ch1f/otel/api/propagation"
 )
 
 // Propagators returns the registered global propagators instance.  If

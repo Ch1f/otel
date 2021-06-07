@@ -19,7 +19,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/api/kv/value"
+	"github.com/Ch1f/otel/api/kv/value"
 )
 
 type (

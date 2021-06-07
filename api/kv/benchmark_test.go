@@ -18,11 +18,11 @@ import (
 	"context"
 	"testing"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/trace"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 // Note: The tests below load a real SDK to ensure the compiler isn't optimizing

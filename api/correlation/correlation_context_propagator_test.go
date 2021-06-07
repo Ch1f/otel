@@ -20,13 +20,13 @@ import (
 	"strings"
 	"testing"
 
-	"go.opentelemetry.io/otel/api/kv/value"
+	"github.com/Ch1f/otel/api/kv/value"
 
 	"github.com/google/go-cmp/cmp"
 
-	"go.opentelemetry.io/otel/api/correlation"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/propagation"
+	"github.com/Ch1f/otel/api/correlation"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/propagation"
 )
 
 func TestExtractValidDistributedContextFromHTTPReq(t *testing.T) {

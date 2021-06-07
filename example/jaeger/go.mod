@@ -1,13 +1,13 @@
-module go.opentelemetry.io/otel/example/jaeger
+module github.com/Ch1f/otel/example/jaeger
 
 go 1.13
 
 replace (
-	go.opentelemetry.io/otel => ../..
-	go.opentelemetry.io/otel/exporters/trace/jaeger => ../../exporters/trace/jaeger
+	github.com/Ch1f/otel => ../..
+	github.com/Ch1f/otel/exporters/trace/jaeger => ../../exporters/trace/jaeger
 )
 
 require (
-	go.opentelemetry.io/otel v0.7.0
-	go.opentelemetry.io/otel/exporters/trace/jaeger v0.7.0
+	github.com/Ch1f/otel v0.7.0
+	github.com/Ch1f/otel/exporters/trace/jaeger v0.7.0
 )

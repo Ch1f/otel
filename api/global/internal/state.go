@@ -18,10 +18,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/api/correlation"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/correlation"
+	"github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/api/propagation"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 type (

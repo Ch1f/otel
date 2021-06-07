@@ -25,19 +25,19 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/exporters/metric/stdout"
-	"go.opentelemetry.io/otel/exporters/metric/test"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/array"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/ddsketch"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/lastvalue"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/minmaxsumcount"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator/sum"
-	aggtest "go.opentelemetry.io/otel/sdk/metric/aggregator/test"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/exporters/metric/stdout"
+	"github.com/Ch1f/otel/exporters/metric/test"
+	export "github.com/Ch1f/otel/sdk/export/metric"
+	"github.com/Ch1f/otel/sdk/export/metric/aggregation"
+	"github.com/Ch1f/otel/sdk/metric/aggregator/array"
+	"github.com/Ch1f/otel/sdk/metric/aggregator/ddsketch"
+	"github.com/Ch1f/otel/sdk/metric/aggregator/lastvalue"
+	"github.com/Ch1f/otel/sdk/metric/aggregator/minmaxsumcount"
+	"github.com/Ch1f/otel/sdk/metric/aggregator/sum"
+	aggtest "github.com/Ch1f/otel/sdk/metric/aggregator/test"
+	"github.com/Ch1f/otel/sdk/resource"
 )
 
 type testFixture struct {

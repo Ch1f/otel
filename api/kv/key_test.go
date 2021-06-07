@@ -18,11 +18,11 @@ import (
 	"encoding/json"
 	"testing"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/kv/value"
+	"github.com/Ch1f/otel/api/kv/value"
 )
 
 func TestDefined(t *testing.T) {

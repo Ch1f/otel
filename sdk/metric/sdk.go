@@ -21,15 +21,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/api/metric"
-	api "go.opentelemetry.io/otel/api/metric"
-	internal "go.opentelemetry.io/otel/internal/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/metric/aggregator"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/label"
+	"github.com/Ch1f/otel/api/metric"
+	api "github.com/Ch1f/otel/api/metric"
+	internal "github.com/Ch1f/otel/internal/metric"
+	export "github.com/Ch1f/otel/sdk/export/metric"
+	"github.com/Ch1f/otel/sdk/metric/aggregator"
+	"github.com/Ch1f/otel/sdk/resource"
 )
 
 type (

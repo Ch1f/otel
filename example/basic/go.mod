@@ -1,7 +1,7 @@
-module go.opentelemetry.io/otel/example/basic
+module github.com/Ch1f/otel/example/basic
 
 go 1.13
 
-replace go.opentelemetry.io/otel => ../..
+replace github.com/Ch1f/otel => ../..
 
-require go.opentelemetry.io/otel v0.7.0
+require github.com/Ch1f/otel v0.7.0

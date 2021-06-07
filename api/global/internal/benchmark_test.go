@@ -18,15 +18,15 @@ import (
 	"context"
 	"testing"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/global/internal"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/trace"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	sdk "go.opentelemetry.io/otel/sdk/metric"
-	"go.opentelemetry.io/otel/sdk/metric/processor/test"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/global/internal"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/api/trace"
+	export "github.com/Ch1f/otel/sdk/export/metric"
+	sdk "github.com/Ch1f/otel/sdk/metric"
+	"github.com/Ch1f/otel/sdk/metric/processor/test"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 var Must = metric.Must

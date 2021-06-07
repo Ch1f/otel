@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/exporters/metric/stdout"
+	"github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/exporters/metric/stdout"
 )
 
 func ExampleNew() {

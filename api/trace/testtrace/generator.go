@@ -18,7 +18,7 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 type Generator interface {

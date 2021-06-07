@@ -17,9 +17,9 @@ package othttp
 import (
 	"net/http"
 
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/api/propagation"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 // Config represents the configuration options available for the othttp.Handler
@@ -84,7 +84,7 @@ func WithPublicEndpoint() Option {
 
 // WithPropagators configures specific propagators. If this
 // option isn't specified then
-// go.opentelemetry.io/otel/api/global.Propagators are used.
+// github.com/Ch1f/otel/api/global.Propagators are used.
 func WithPropagators(ps propagation.Propagators) Option {
 	return OptionFunc(func(c *Config) {
 		c.Propagators = ps

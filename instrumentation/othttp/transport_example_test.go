@@ -20,8 +20,8 @@ import (
 	"log"
 	"net/http"
 
-	"go.opentelemetry.io/otel/api/global"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/global"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 func ExampleNewTransport() {

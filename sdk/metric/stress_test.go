@@ -31,12 +31,12 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/metric"
-	api "go.opentelemetry.io/otel/api/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/metric/processor/test"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/metric"
+	api "github.com/Ch1f/otel/api/metric"
+	export "github.com/Ch1f/otel/sdk/export/metric"
+	"github.com/Ch1f/otel/sdk/export/metric/aggregation"
+	"github.com/Ch1f/otel/sdk/metric/processor/test"
 )
 
 const (

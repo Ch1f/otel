@@ -18,11 +18,11 @@ import (
 	"testing"
 	"unsafe"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 
 	"github.com/google/go-cmp/cmp"
 
-	"go.opentelemetry.io/otel/api/kv/value"
+	"github.com/Ch1f/otel/api/kv/value"
 )
 
 func TestValue(t *testing.T) {

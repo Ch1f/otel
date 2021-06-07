@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	export "go.opentelemetry.io/otel/sdk/export/trace"
+	export "github.com/Ch1f/otel/sdk/export/trace"
 )
 
 const (

@@ -17,8 +17,8 @@ package label_test
 import (
 	"testing"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/label"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/label"
 
 	"github.com/stretchr/testify/require"
 )

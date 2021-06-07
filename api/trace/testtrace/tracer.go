@@ -19,12 +19,12 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/api/kv/value"
+	"github.com/Ch1f/otel/api/kv/value"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/trace"
 
-	"go.opentelemetry.io/otel/internal/trace/parent"
+	"github.com/Ch1f/otel/internal/trace/parent"
 )
 
 var _ trace.Tracer = (*Tracer)(nil)

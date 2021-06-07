@@ -19,10 +19,10 @@ import (
 	"io"
 	"net/http"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/standard"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/propagation"
+	"github.com/Ch1f/otel/api/standard"
+	"github.com/Ch1f/otel/api/trace"
 
 	"google.golang.org/grpc/codes"
 )
@@ -49,7 +49,7 @@ func NewTransport(base http.RoundTripper, opts ...Option) *Transport {
 	}
 
 	defaultOpts := []Option{
-		WithTracer(global.Tracer("go.opentelemetry.io/otel/instrumentation/othttp")),
+		WithTracer(global.Tracer("github.com/Ch1f/otel/instrumentation/othttp")),
 		WithPropagators(global.Propagators()),
 		WithSpanOptions(trace.WithSpanKind(trace.SpanKindClient)),
 		WithSpanNameFormatter(defaultTransportFormatter),

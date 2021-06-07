@@ -15,8 +15,8 @@
 package global
 
 import (
-	"go.opentelemetry.io/otel/api/global/internal"
-	"go.opentelemetry.io/otel/api/metric"
+	"github.com/Ch1f/otel/api/global/internal"
+	"github.com/Ch1f/otel/api/metric"
 )
 
 // Meter creates an implementation of the Meter interface from the global

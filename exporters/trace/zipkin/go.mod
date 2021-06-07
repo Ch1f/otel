@@ -1,12 +1,12 @@
-module go.opentelemetry.io/otel/exporters/trace/zipkin
+module github.com/Ch1f/otel/exporters/trace/zipkin
 
 go 1.13
 
-replace go.opentelemetry.io/otel => ../../..
+replace github.com/Ch1f/otel => ../../..
 
 require (
 	github.com/openzipkin/zipkin-go v0.2.2
 	github.com/stretchr/testify v1.6.1
-	go.opentelemetry.io/otel v0.7.0
+	github.com/Ch1f/otel v0.7.0
 	google.golang.org/grpc v1.30.0
 )

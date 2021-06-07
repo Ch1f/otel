@@ -17,8 +17,8 @@ package metric
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/oterror"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/oterror"
 )
 
 // Measurement is used for reporting a synchronous batch of metric

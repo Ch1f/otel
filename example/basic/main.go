@@ -18,16 +18,16 @@ import (
 	"context"
 	"log"
 
-	"go.opentelemetry.io/otel/api/correlation"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/trace"
-	metricstdout "go.opentelemetry.io/otel/exporters/metric/stdout"
-	tracestdout "go.opentelemetry.io/otel/exporters/trace/stdout"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/correlation"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/api/trace"
+	metricstdout "github.com/Ch1f/otel/exporters/metric/stdout"
+	tracestdout "github.com/Ch1f/otel/exporters/trace/stdout"
+	"github.com/Ch1f/otel/sdk/metric/controller/push"
+	"github.com/Ch1f/otel/sdk/resource"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 var (

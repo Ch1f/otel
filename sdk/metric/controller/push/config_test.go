@@ -17,11 +17,11 @@ package push
 import (
 	"testing"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/Ch1f/otel/sdk/resource"
 )
 
 func TestWithResource(t *testing.T) {

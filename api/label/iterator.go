@@ -15,7 +15,7 @@
 package label
 
 import (
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 )
 
 // Iterator allows iterating over the set of labels in order,

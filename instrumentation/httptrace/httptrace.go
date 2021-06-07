@@ -18,12 +18,12 @@ import (
 	"context"
 	"net/http"
 
-	"go.opentelemetry.io/otel/api/correlation"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/standard"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/correlation"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/propagation"
+	"github.com/Ch1f/otel/api/standard"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 // Option is a function that allows configuration of the httptrace Extract()

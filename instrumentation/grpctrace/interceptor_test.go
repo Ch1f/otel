@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/api/standard"
+	"github.com/Ch1f/otel/api/standard"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -31,10 +31,10 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/kv/value"
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv/value"
+	export "github.com/Ch1f/otel/sdk/export/trace"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 type testExporter struct {

@@ -22,15 +22,15 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/api/kv/value"
+	"github.com/Ch1f/otel/api/kv/value"
 
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/trace"
-	"go.opentelemetry.io/otel/api/trace/testtrace"
-	"go.opentelemetry.io/otel/internal/matchers"
-	ottest "go.opentelemetry.io/otel/internal/testing"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/trace"
+	"github.com/Ch1f/otel/api/trace/testtrace"
+	"github.com/Ch1f/otel/internal/matchers"
+	ottest "github.com/Ch1f/otel/internal/testing"
 )
 
 func TestSpan(t *testing.T) {
@@ -136,7 +136,7 @@ func TestSpan(t *testing.T) {
 			}{
 				{
 					err: ottest.NewTestError("test error"),
-					typ: "go.opentelemetry.io/otel/internal/testing.TestError",
+					typ: "github.com/Ch1f/otel/internal/testing.TestError",
 					msg: "test error",
 				},
 				{
@@ -193,7 +193,7 @@ func TestSpan(t *testing.T) {
 				Timestamp: testTime,
 				Name:      "error",
 				Attributes: map[kv.Key]value.Value{
-					kv.Key("error.type"):    value.String("go.opentelemetry.io/otel/internal/testing.TestError"),
+					kv.Key("error.type"):    value.String("github.com/Ch1f/otel/internal/testing.TestError"),
 					kv.Key("error.message"): value.String(errMsg),
 				},
 			}}

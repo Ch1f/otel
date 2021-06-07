@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package basic // import "go.opentelemetry.io/otel/sdk/metric/processor/basic"
+package basic // import "github.com/Ch1f/otel/sdk/metric/processor/basic"
 
 import (
 	"errors"
@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/api/label"
-	"go.opentelemetry.io/otel/api/metric"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	"go.opentelemetry.io/otel/sdk/export/metric/aggregation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/Ch1f/otel/api/label"
+	"github.com/Ch1f/otel/api/metric"
+	export "github.com/Ch1f/otel/sdk/export/metric"
+	"github.com/Ch1f/otel/sdk/export/metric/aggregation"
+	"github.com/Ch1f/otel/sdk/resource"
 )
 
 type (

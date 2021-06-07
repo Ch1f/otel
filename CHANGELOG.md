@@ -90,8 +90,8 @@ This release implements the v0.5.0 version of the OpenTelemetry specification.
 - New example that uses OTLP and the collector. (#790)
 - Handle errors in the span `SetName` during span initialization. (#791)
 - Default service config to enable retries for retry-able failed requests in the OTLP exporter and an option to override this default. (#777)
-- New `go.opentelemetry.io/otel/api/oterror` package to uniformly support error handling and definitions for the project. (#778)
-- New `global` default implementation of the `go.opentelemetry.io/otel/api/oterror.Handler` interface to be used to handle errors prior to an user defined `Handler`.
+- New `github.com/Ch1f/otel/api/oterror` package to uniformly support error handling and definitions for the project. (#778)
+- New `global` default implementation of the `github.com/Ch1f/otel/api/oterror.Handler` interface to be used to handle errors prior to an user defined `Handler`.
    There is also functionality for the user to register their `Handler` as well as a convenience function `Handle` to handle an error with this global `Handler`(#778)
 - Options to specify propagators for httptrace and grpctrace instrumentation. (#784)
 - The required `application/json` header for the Zipkin exporter is included in all exports. (#774)
@@ -413,7 +413,7 @@ There is still a possibility of breaking changes.
 ### Changed
 
 - Rename the `exporter` directory to `exporters`.
-   The `go.opentelemetry.io/otel/exporter/trace/jaeger` package was mistakenly released with a `v1.0.0` tag instead of `v0.1.0`.
+   The `github.com/Ch1f/otel/exporter/trace/jaeger` package was mistakenly released with a `v1.0.0` tag instead of `v0.1.0`.
    This resulted in all subsequent releases not becoming the default latest.
    A consequence of this was that all `go get`s pulled in the incompatible `v0.1.0` release of that package when pulling in more recent packages from other otel packages.
    Renaming the `exporter` directory to `exporters` fixes this issue by renaming the package and therefore clearing any existing dependency tags.

@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strings"
 
-	"go.opentelemetry.io/otel/instrumentation/othttp"
+	"github.com/Ch1f/otel/instrumentation/othttp"
 )
 
 // Header returns a Filter that returns true if the request

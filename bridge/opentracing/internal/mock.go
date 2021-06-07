@@ -23,12 +23,12 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	otelcorrelation "go.opentelemetry.io/otel/api/correlation"
-	otelcore "go.opentelemetry.io/otel/api/kv"
-	oteltrace "go.opentelemetry.io/otel/api/trace"
-	otelparent "go.opentelemetry.io/otel/internal/trace/parent"
+	otelcorrelation "github.com/Ch1f/otel/api/correlation"
+	otelcore "github.com/Ch1f/otel/api/kv"
+	oteltrace "github.com/Ch1f/otel/api/trace"
+	otelparent "github.com/Ch1f/otel/internal/trace/parent"
 
-	"go.opentelemetry.io/otel/bridge/opentracing/migration"
+	"github.com/Ch1f/otel/bridge/opentracing/migration"
 )
 
 var (

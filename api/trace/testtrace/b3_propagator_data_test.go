@@ -17,7 +17,7 @@ package testtrace_test
 import (
 	"fmt"
 
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 const (

@@ -19,8 +19,8 @@ import (
 	"net/url"
 	"strings"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/propagation"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/propagation"
 )
 
 // Temporary header name until W3C finalizes format.

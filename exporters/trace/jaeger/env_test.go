@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/kv/value"
-	ottest "go.opentelemetry.io/otel/internal/testing"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv/value"
+	ottest "github.com/Ch1f/otel/internal/testing"
 )
 
 func Test_parseTags(t *testing.T) {

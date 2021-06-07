@@ -17,9 +17,9 @@ package config
 import (
 	"log"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/exporters/trace/stdout"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/exporters/trace/stdout"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 // Init configures an OpenTelemetry exporter and trace provider

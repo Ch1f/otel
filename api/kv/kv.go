@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"go.opentelemetry.io/otel/api/kv/value"
+	"github.com/Ch1f/otel/api/kv/value"
 )
 
 // KeyValue holds a key and value pair.

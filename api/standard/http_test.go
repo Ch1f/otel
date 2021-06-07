@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/codes"
 
-	otelkv "go.opentelemetry.io/otel/api/kv"
+	otelkv "github.com/Ch1f/otel/api/kv"
 )
 
 type tlsOption int

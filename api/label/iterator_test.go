@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"testing"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/label"
+	"github.com/Ch1f/otel/api/label"
 )
 
 func TestIterator(t *testing.T) {

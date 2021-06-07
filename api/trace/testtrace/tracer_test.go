@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/testharness"
-	"go.opentelemetry.io/otel/api/trace"
-	"go.opentelemetry.io/otel/api/trace/testtrace"
-	"go.opentelemetry.io/otel/internal/matchers"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/testharness"
+	"github.com/Ch1f/otel/api/trace"
+	"github.com/Ch1f/otel/api/trace/testtrace"
+	"github.com/Ch1f/otel/internal/matchers"
 )
 
 func TestTracer(t *testing.T) {

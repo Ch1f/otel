@@ -17,7 +17,7 @@ package trace_test
 import (
 	"testing"
 
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 func TestIsValid(t *testing.T) {

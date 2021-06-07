@@ -46,4 +46,4 @@
 // The Provider interface supports obtaining a named Meter interface.
 // To obtain a Provider implementation, initialize and configure any
 // compatible SDK.
-package metric // import "go.opentelemetry.io/otel/api/metric"
+package metric // import "github.com/Ch1f/otel/api/metric"

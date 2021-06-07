@@ -14,7 +14,7 @@
 
 package standard
 
-import "go.opentelemetry.io/otel/api/kv"
+import "github.com/Ch1f/otel/api/kv"
 
 // Standard attribute keys used for network related operations.
 const (

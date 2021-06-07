@@ -1,4 +1,4 @@
-module go.opentelemetry.io/otel
+module github.com/Ch1f/otel
 
 go 1.13
 

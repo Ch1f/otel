@@ -19,7 +19,7 @@ import (
 
 	"github.com/benbjohnson/clock"
 
-	controllerTime "go.opentelemetry.io/otel/sdk/metric/controller/time"
+	controllerTime "github.com/Ch1f/otel/sdk/metric/controller/time"
 )
 
 type MockClock struct {

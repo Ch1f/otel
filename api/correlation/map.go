@@ -15,8 +15,8 @@
 package correlation
 
 import (
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/kv/value"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv/value"
 )
 
 type rawMap map[kv.Key]value.Value

@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package standard // import "go.opentelemetry.io/otel/api/standard"
+package standard // import "github.com/Ch1f/otel/api/standard"
 
-import "go.opentelemetry.io/otel/api/kv"
+import "github.com/Ch1f/otel/api/kv"
 
 // Standard service resource attribute keys.
 const (

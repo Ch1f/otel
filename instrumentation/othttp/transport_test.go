@@ -22,10 +22,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/trace"
-	mocktrace "go.opentelemetry.io/otel/internal/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/propagation"
+	"github.com/Ch1f/otel/api/trace"
+	mocktrace "github.com/Ch1f/otel/internal/trace"
 )
 
 func TestTransportBasics(t *testing.T) {

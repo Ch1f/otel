@@ -20,7 +20,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.opentelemetry.io/otel/api/oterror"
+	"github.com/Ch1f/otel/api/oterror"
 )
 
 var (

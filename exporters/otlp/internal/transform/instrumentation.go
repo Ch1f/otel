@@ -17,7 +17,7 @@ package transform
 import (
 	commonpb "github.com/open-telemetry/opentelemetry-proto/gen/go/common/v1"
 
-	"go.opentelemetry.io/otel/sdk/instrumentation"
+	"github.com/Ch1f/otel/sdk/instrumentation"
 )
 
 func instrumentationLibrary(il instrumentation.Library) *commonpb.InstrumentationLibrary {

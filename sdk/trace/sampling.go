@@ -18,8 +18,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"go.opentelemetry.io/otel/api/kv"
-	api "go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/kv"
+	api "github.com/Ch1f/otel/api/trace"
 )
 
 // Sampler decides whether a trace should be sampled and exported.

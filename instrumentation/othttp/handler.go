@@ -19,12 +19,12 @@ import (
 	"net/http"
 	"time"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/standard"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/api/propagation"
+	"github.com/Ch1f/otel/api/standard"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 var _ http.Handler = &Handler{}
@@ -61,7 +61,7 @@ func NewHandler(handler http.Handler, operation string, opts ...Option) http.Han
 		operation: operation,
 	}
 
-	const domain = "go.opentelemetry.io/otel/instrumentation/othttp"
+	const domain = "github.com/Ch1f/otel/instrumentation/othttp"
 
 	defaultOpts := []Option{
 		WithTracer(global.Tracer(domain)),

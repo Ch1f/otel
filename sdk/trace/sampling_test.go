@@ -17,9 +17,9 @@ package trace_test
 import (
 	"testing"
 
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/trace"
 
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 func TestAlwaysParentSampleWithParentSampled(t *testing.T) {

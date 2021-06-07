@@ -15,7 +15,7 @@
 package kv
 
 import (
-	"go.opentelemetry.io/otel/api/kv/value"
+	"github.com/Ch1f/otel/api/kv/value"
 )
 
 // Key represents the key part in key-value pairs. It's a string. The

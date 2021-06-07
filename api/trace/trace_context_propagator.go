@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"go.opentelemetry.io/otel/api/propagation"
+	"github.com/Ch1f/otel/api/propagation"
 )
 
 const (

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package trace // import "go.opentelemetry.io/otel/sdk/export/trace"
+package trace // import "github.com/Ch1f/otel/sdk/export/trace"
 
 import (
 	"context"
@@ -20,10 +20,10 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/kv"
-	apitrace "go.opentelemetry.io/otel/api/trace"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	"github.com/Ch1f/otel/api/kv"
+	apitrace "github.com/Ch1f/otel/api/trace"
+	"github.com/Ch1f/otel/sdk/instrumentation"
+	"github.com/Ch1f/otel/sdk/resource"
 )
 
 // SpanSyncer is a type for functions that receive a single sampled trace span.

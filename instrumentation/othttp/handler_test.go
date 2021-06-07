@@ -25,11 +25,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/codes"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/standard"
-	"go.opentelemetry.io/otel/api/trace"
-	mockmeter "go.opentelemetry.io/otel/internal/metric"
-	mocktrace "go.opentelemetry.io/otel/internal/trace"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/standard"
+	"github.com/Ch1f/otel/api/trace"
+	mockmeter "github.com/Ch1f/otel/internal/metric"
+	mocktrace "github.com/Ch1f/otel/internal/trace"
 )
 
 func assertMetricLabels(t *testing.T, expectedLabels []kv.KeyValue, measurementBatches []mockmeter.Batch) {

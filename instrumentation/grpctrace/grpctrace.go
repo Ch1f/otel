@@ -19,11 +19,11 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"go.opentelemetry.io/otel/api/correlation"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/correlation"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/propagation"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 // Option is a function that allows configuration of the grpctrace Extract()

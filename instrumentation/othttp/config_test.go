@@ -21,7 +21,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	mocktrace "go.opentelemetry.io/otel/internal/trace"
+	mocktrace "github.com/Ch1f/otel/internal/trace"
 )
 
 func TestBasicFilter(t *testing.T) {

@@ -19,14 +19,14 @@ import (
 	"log"
 	"net/http"
 
-	"go.opentelemetry.io/otel/api/correlation"
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/standard"
-	"go.opentelemetry.io/otel/api/trace"
-	"go.opentelemetry.io/otel/exporters/trace/stdout"
-	"go.opentelemetry.io/otel/instrumentation/httptrace"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/correlation"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/standard"
+	"github.com/Ch1f/otel/api/trace"
+	"github.com/Ch1f/otel/exporters/trace/stdout"
+	"github.com/Ch1f/otel/instrumentation/httptrace"
+	"github.com/Ch1f/otel/sdk/resource"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 func initTracer() {

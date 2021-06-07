@@ -12,20 +12,20 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package push // import "go.opentelemetry.io/otel/sdk/metric/controller/push"
+package push // import "github.com/Ch1f/otel/sdk/metric/controller/push"
 
 import (
 	"context"
 	"sync"
 	"time"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/api/metric/registry"
-	export "go.opentelemetry.io/otel/sdk/export/metric"
-	sdk "go.opentelemetry.io/otel/sdk/metric"
-	controllerTime "go.opentelemetry.io/otel/sdk/metric/controller/time"
-	"go.opentelemetry.io/otel/sdk/metric/processor/basic"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/api/metric/registry"
+	export "github.com/Ch1f/otel/sdk/export/metric"
+	sdk "github.com/Ch1f/otel/sdk/metric"
+	controllerTime "github.com/Ch1f/otel/sdk/metric/controller/time"
+	"github.com/Ch1f/otel/sdk/metric/processor/basic"
 )
 
 // DefaultPushPeriod is the default time interval between pushes.

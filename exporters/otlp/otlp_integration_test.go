@@ -28,17 +28,17 @@ import (
 	commonpb "github.com/open-telemetry/opentelemetry-proto/gen/go/common/v1"
 	metricpb "github.com/open-telemetry/opentelemetry-proto/gen/go/metrics/v1"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/metric"
-	metricapi "go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/exporters/otlp"
-	metricsdk "go.opentelemetry.io/otel/sdk/export/metric"
-	exporttrace "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	processor "go.opentelemetry.io/otel/sdk/metric/processor/basic"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/metric"
+	metricapi "github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/exporters/otlp"
+	metricsdk "github.com/Ch1f/otel/sdk/export/metric"
+	exporttrace "github.com/Ch1f/otel/sdk/export/trace"
+	"github.com/Ch1f/otel/sdk/metric/controller/push"
+	processor "github.com/Ch1f/otel/sdk/metric/processor/basic"
+	"github.com/Ch1f/otel/sdk/metric/selector/simple"
+	"github.com/Ch1f/otel/sdk/resource"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 func TestNewExporter_endToEnd(t *testing.T) {

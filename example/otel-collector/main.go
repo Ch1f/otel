@@ -14,7 +14,7 @@
 
 // Example using the OTLP exporter + collector + third-party backends. For
 // information about using the exporter, see:
-// https://pkg.go.dev/go.opentelemetry.io/otel/exporters/otlp?tab=doc#example-package-Insecure
+// https://pkg.go.dev/github.com/Ch1f/otel/exporters/otlp?tab=doc#example-package-Insecure
 package main
 
 import (
@@ -25,14 +25,14 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/metric"
-	"go.opentelemetry.io/otel/exporters/otlp"
-	"go.opentelemetry.io/otel/sdk/metric/controller/push"
-	"go.opentelemetry.io/otel/sdk/metric/selector/simple"
-	"go.opentelemetry.io/otel/sdk/resource"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/metric"
+	"github.com/Ch1f/otel/exporters/otlp"
+	"github.com/Ch1f/otel/sdk/metric/controller/push"
+	"github.com/Ch1f/otel/sdk/metric/selector/simple"
+	"github.com/Ch1f/otel/sdk/resource"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 
 	"github.com/open-telemetry/opentelemetry-collector/translator/conventions"
 )

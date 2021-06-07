@@ -17,7 +17,7 @@ package correlation
 import (
 	"context"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 )
 
 type correlationsType struct{}

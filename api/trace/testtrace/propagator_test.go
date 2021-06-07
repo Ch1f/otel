@@ -21,8 +21,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.opentelemetry.io/otel/api/propagation"
-	"go.opentelemetry.io/otel/api/trace"
+	"github.com/Ch1f/otel/api/propagation"
+	"github.com/Ch1f/otel/api/trace"
 )
 
 type outOfThinAirPropagator struct {

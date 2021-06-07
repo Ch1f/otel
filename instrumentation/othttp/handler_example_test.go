@@ -22,14 +22,14 @@ import (
 	"net/http"
 	"strings"
 
-	"go.opentelemetry.io/otel/api/kv"
+	"github.com/Ch1f/otel/api/kv"
 
-	"go.opentelemetry.io/otel/api/global"
-	"go.opentelemetry.io/otel/api/trace"
-	mstdout "go.opentelemetry.io/otel/exporters/metric/stdout"
-	"go.opentelemetry.io/otel/exporters/trace/stdout"
-	"go.opentelemetry.io/otel/instrumentation/othttp"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+	"github.com/Ch1f/otel/api/global"
+	"github.com/Ch1f/otel/api/trace"
+	mstdout "github.com/Ch1f/otel/exporters/metric/stdout"
+	"github.com/Ch1f/otel/exporters/trace/stdout"
+	"github.com/Ch1f/otel/instrumentation/othttp"
+	sdktrace "github.com/Ch1f/otel/sdk/trace"
 )
 
 func ExampleNewHandler() {

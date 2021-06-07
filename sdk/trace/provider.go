@@ -18,15 +18,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	export "go.opentelemetry.io/otel/sdk/export/trace"
-	"go.opentelemetry.io/otel/sdk/instrumentation"
-	"go.opentelemetry.io/otel/sdk/resource"
+	export "github.com/Ch1f/otel/sdk/export/trace"
+	"github.com/Ch1f/otel/sdk/instrumentation"
+	"github.com/Ch1f/otel/sdk/resource"
 
-	apitrace "go.opentelemetry.io/otel/api/trace"
+	apitrace "github.com/Ch1f/otel/api/trace"
 )
 
 const (
-	defaultTracerName = "go.opentelemetry.io/otel/sdk/tracer"
+	defaultTracerName = "github.com/Ch1f/otel/sdk/tracer"
 )
 
 // batcher contains export.SpanBatcher and its options.

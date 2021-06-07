@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package registry // import "go.opentelemetry.io/otel/api/metric/registry"
+package registry // import "github.com/Ch1f/otel/api/metric/registry"
 
 import (
 	"context"
 	"fmt"
 	"sync"
 
-	"go.opentelemetry.io/otel/api/kv"
-	"go.opentelemetry.io/otel/api/metric"
+	"github.com/Ch1f/otel/api/kv"
+	"github.com/Ch1f/otel/api/metric"
 )
 
 // Provider is a standard metric.Provider for wrapping `MeterImpl`
